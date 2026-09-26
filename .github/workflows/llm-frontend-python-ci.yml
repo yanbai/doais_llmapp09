@@ -80,13 +80,14 @@ jobs:
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL,HIGH'
+          ignore-unfixed: true
           trivyignores: .trivyignore
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v3
         with:
-          username: darryl1975
+          username: bynezhang
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push Docker image

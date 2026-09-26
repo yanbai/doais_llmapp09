@@ -1,0 +1,9 @@
+venv/
+.venv/
+**/__pycache__/
+*.pyc
+.env
+tests/
+k8s/
+*.md
+.git

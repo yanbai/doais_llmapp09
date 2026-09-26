@@ -25,3 +25,6 @@ CVE-2026-76642
 CVE-2026-78408
 CVE-2026-78409
 CVE-2026-78410
+
+# systemd (libsystemd0/libudev1 in Debian 13 base): systemd-homed LPE, no Debian fix yet - suppress until patched
+CVE-2026-16742

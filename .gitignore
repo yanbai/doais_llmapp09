@@ -1,1 +1,12 @@
 .env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.deepeval/
+node_modules/
+.promptfoo/
+.DS_Store
+*.log
+llm-multiroute/metrics/*.json
